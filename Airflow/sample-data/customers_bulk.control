@@ -1,0 +1,6 @@
+# Control file for customers_bulk.csv / customers_bulk.json (Phase 3 @ scale)
+# generated deterministically (seed=42): 12000 data rows per feed
+# intentional rejects: 80 parse-fail, 69 bad id,
+#   56 short email, 42 blank first_name
+# record_count = rows expected to LOAD:
+record_count=3621

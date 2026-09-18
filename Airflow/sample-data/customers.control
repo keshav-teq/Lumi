@@ -1,0 +1,4 @@
+# Control file for customers.* sample feeds (Phase 3)
+# record_count = rows expected to LOAD into the warehouse.
+# Each feed carries 10 data rows: 6 load, 1 parse-fail (C000006), 3 validation-fail.
+record_count=8
